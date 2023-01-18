@@ -1,0 +1,26 @@
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.section-projects {
+    padding: 70px 0;
+    background-color: var(--header-bg);
+    background-image: url('./../../img/darkWallpaper/pngwing.com\ \(2\).png');
+    /* background-image: url('./../../img/lightWallpaper/pngwing.com\ \(5\).png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.section-projects--active {
+    padding: 70px 0;
+    background-color: var(--header-bg);
+    background-image: url('./../../img/darkWallpaper/pngwing.com\ \(2\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}

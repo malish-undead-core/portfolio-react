@@ -1,0 +1,23 @@
+.section-projact__page {
+    padding: 70px 0;
+    background-color: var(--header-bg);
+    background-image: url('./../../img/darkWallpaper/pngwing.com\ \(11\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.section-projact__page p {
+    color: #5c62ec;
+}
+
+.project-details h1 {
+    margin-top: 60px;
+}
+
+.project .video {
+    max-width: 100%;
+    height: 278px;
+    margin-bottom: 0;
+    margin-top: 0;
+}

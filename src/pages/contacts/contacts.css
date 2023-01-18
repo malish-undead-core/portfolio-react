@@ -1,0 +1,31 @@
+.section-contacts {
+    padding: 126px 0;
+    background-color: var(--header-bg);
+    background-image: url('./../../img/darkWallpaper/pngwing.com\ \(5\).png');
+    /* background-image: url('./../../img/lightWallpaper/pngwing.com\ \(1\).png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.section-contacts--active {
+    padding: 77px 0;
+    background-color: var(--header-bg);
+    background-image: url('./../../img/darkWallpaper/pngwing.com\ \(5\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.section-contacts p {
+    color: #5c62ec;
+}
+
+.section-contacts h2 {
+    color: white;
+}
+
+.btn-contacts {
+    color: red;
+    font-weight: bold;
+}
