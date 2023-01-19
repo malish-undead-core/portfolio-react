@@ -14,7 +14,7 @@ const Header = () => {
                 </div>
 
                 <a
-                    href="https://restpack.io/html2pdf/save-as-pdf?url=https%3A%2F%2Fvsmolenskyi.netlify.app"
+                    href="https://restpack.io/html2pdf/save-as-pdf?url=https://my-resume-malish.netlify.app"
                     className="btn"
                     rel="nofollow"
                     target="_blank"

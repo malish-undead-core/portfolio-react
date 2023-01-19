@@ -39,7 +39,7 @@ const projects = [
         title: 'Game Store',
         img: gameStore,
         imgBig: gameStoreBig,
-        skills: 'ReactJS, HTML, CSS',
+        skills: 'ReactJS, Redux, HTML, CSS',
         gitHubLink: 'https://github.com/malish-undead-core/game-store.git',
         gitHubPage: 'https://malish-undead-core.github.io/game-store'
     },
@@ -87,6 +87,7 @@ const projects = [
         img: myResume,
         imgBig: myResumeBig,
         gitHubLink: 'https://github.com/malish-undead-core/my-resume.git',
+        gitHubPage: 'https://malish-undead-core.github.io/my-resume/'
     },
     {
         id: '7',

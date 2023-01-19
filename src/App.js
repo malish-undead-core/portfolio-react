@@ -1,4 +1,3 @@
-import './styles/main.css'
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import NavBar from './components/navbar/navBar'
 import Footer from './components/footer/footer'
@@ -7,16 +6,17 @@ import Contacts from './pages/contacts/contacts';
 import ScrollToTop from './utils/scrollToTop';
 import ProjectPage from './pages/projectPage/projectPage';
 import Projects from './pages/projects/projects';
+import './styles/main.css'
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Router>
         <ScrollToTop />
         <NavBar />
         <Routes>
           <Route
-            path="/"
+            path="/portfolio-react"
             element={<Home />}
           />
           <Route
