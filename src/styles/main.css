@@ -156,7 +156,10 @@ h2.title-1 {
 
 .btn-hub-rep-page {
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 	column-gap: 30px;
+	row-gap: 30px;
 }
 
 .btn-outline:hover {
