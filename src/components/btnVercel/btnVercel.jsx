@@ -1,7 +1,8 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import { projects } from '../../helpers/projectsList'
-// import imgBtnVercel from './btnVercel.svg'
+import imgBtnVercel from './btnVercel.svg'
+import './btnVercel.css'
 
 const BtnVercel = ({ link }) => {
     const { id } = useParams()
@@ -10,7 +11,7 @@ const BtnVercel = ({ link }) => {
     return (
 
         <a href={link} target="_blank" rel="noreferrer" className="btn-outline">
-            {/* <img src={imgBtnVercel} alt="" /> */}
+            <img className="vercel" src={imgBtnVercel} alt="" />
             {`Vercel page ${project.title}`}
         </a>
     )
