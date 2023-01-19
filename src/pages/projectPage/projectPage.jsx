@@ -4,6 +4,7 @@ import { projects } from '../../helpers/projectsList'
 import BtnGitHub from '../../components/btnGitHub/btnGitHub'
 import './projectPage.css'
 import BtnGitHubPage from '../../components/btnGitHubPage/btnGitHubPage'
+import BtnVercel from '../../components/btnVercel/btnVercel'
 
 const ProjectPage = () => {
 
@@ -36,6 +37,10 @@ const ProjectPage = () => {
 
                         {project.gitHubPage && (
                             <BtnGitHubPage link={project.gitHubPage} />
+                        )}
+
+                        {project.vercel && (
+                            <BtnVercel link={project.vercel} />
                         )}
                     </div>
 

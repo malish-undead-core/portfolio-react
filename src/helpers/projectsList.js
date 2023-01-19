@@ -41,7 +41,8 @@ const projects = [
         imgBig: gameStoreBig,
         skills: 'ReactJS, Redux, HTML, CSS',
         gitHubLink: 'https://github.com/malish-undead-core/game-store.git',
-        gitHubPage: 'https://malish-undead-core.github.io/game-store'
+        // gitHubPage: 'https://malish-undead-core.github.io/game-store'
+        vercel: 'https://game-store-rho.vercel.app/'
     },
     {
         id: '2',
