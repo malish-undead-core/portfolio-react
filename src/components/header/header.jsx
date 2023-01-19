@@ -16,7 +16,7 @@ const Header = () => {
                 <a
                     href="https://restpack.io/html2pdf/save-as-pdf?url=https://my-resume-malish.netlify.app"
                     className="btn"
-                    rel="nofollow"
+                    rel="noreferrer"
                     target="_blank"
                 >
                     Download CV
