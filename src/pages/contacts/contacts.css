@@ -1,5 +1,5 @@
 .section-contacts {
-    padding: 115px 0;
+    padding: 106px 0;
     background-color: var(--header-bg);
     background-image: url('./../../img/darkWallpaper/pngwing.com\ \(5\).png');
     /* background-image: url('./../../img/lightWallpaper/pngwing.com\ \(1\).png'); */
@@ -19,6 +19,8 @@
 
 .section-contacts p {
     color: #5c62ec;
+    font-weight: bold;
+    font-size: 22px;
 }
 
 .section-contacts h2 {

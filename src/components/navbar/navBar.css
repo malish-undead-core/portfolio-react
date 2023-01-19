@@ -39,9 +39,10 @@
     row-gap: 10px;
     align-items: center;
     column-gap: 40px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
+    font-weight: 700;
 }
 
 .nav-list__link {
@@ -65,7 +66,7 @@
     top: 100%;
 
     display: block;
-    height: 2px;
+    height: 4px;
     width: 100%;
     background-color: var(--accent);
 }

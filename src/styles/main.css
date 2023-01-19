@@ -126,7 +126,7 @@ h2.title-1 {
 	background-color: var(--accent);
 	color: var(--white);
 	letter-spacing: 0.15px;
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: 700;
 	transition: opacity 0.2s ease-in;
 }
@@ -282,7 +282,7 @@ h2.title-1 {
 	/* Contacts */
 
 	.section-contacts {
-		padding: 184px 0;
+		padding: 170px 0;
 	}
 
 	/* Footer */
